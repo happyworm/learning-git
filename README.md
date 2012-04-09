@@ -19,6 +19,7 @@ Useful links:
 
 ## Changing this log to track changes...
 
-0 (Used git add . and then git commit)
-1 (Used this command git commit -a to remove the old README)
-2 (pushed the text for 0 and 1 above.)
+1. Used git add . and then git commit
+2. Used this command git commit -a to remove the old README
+3. pushed the text for 0 and 1 above. NB: This was commit 2nd change.
+4. made this list an ordered list. NB: Called this the 4th change to line up commit msgs.
