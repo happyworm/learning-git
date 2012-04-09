@@ -19,4 +19,6 @@ Useful links:
 
 ## Changing this log to track changes...
 
-1
+0 (Used git add . and then git commit)
+1 (Used this command git commit -a to remove the old README)
+2 (pushed the text for 0 and 1 above.)
