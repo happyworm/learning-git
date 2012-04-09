@@ -26,4 +26,4 @@ Useful links:
 5. Commands 'git branch development' and 'git checkout development' and changed the file and then 'git commit' and push like 'git push' ie., Without a remote branch name. THIS HAD NO EFFECT. (Locally though both branches seemed to note that the readme.md file had changed.)
 6. Command 'git push origin development'. CREATED REMOTE development BRANCH, BUT FILES WHERE OLD.
 7. Command 'git commit -a' while still in local development branch. Then 'git push origin development'. WORKED! REMOTE DEVELOPMENT BRANCH NOW CONTAINED THE NEW FILES. Switching between local branches works. And git staus seems happy on both branches. Reviewing order and commands again above.
-8. Changed file in development branch. Did a 'git add .' in the development branch. Commited changes. Reviewed master banch.
+8. Changed file in development branch. Did a 'git add .' in the development branch. Commited changes. Required 'git commit -a' for changes to be read in. Reviewed master banch. Branches fine. Pushing to remote development branch.
