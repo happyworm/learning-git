@@ -35,4 +35,4 @@ OK. Have the local and remote understood.
 Want this repo here: [rmhall/jPlayer](https://github.com/rmhall/jPlayer)
 Git Read-Only url: git://github.com/rmhall/jPlayer.git
 
-1. Command: 'git fetch git://github.com/rmhall/jPlayer.git master::rtmp'
+1. Command: 'git fetch git://github.com/rmhall/jPlayer.git master:rtmp'
