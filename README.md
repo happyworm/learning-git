@@ -37,3 +37,9 @@ Git Read-Only url: git://github.com/rmhall/jPlayer.git
 
 1. Command: 'git fetch git://github.com/rmhall/jPlayer.git master:rtmp'
 2. Command: 'git fetch git://github.com/happyworm/jPlayer.git master:jPlayer'
+
+The local merge attempt is complex, and even images seem to fail to merge... Even though most should be identical.
+
+Going to do this manually... Make a clone of rmhall's repo and then use local file comp tools and manually implement changes...
+
+Doing it this way as it appears that some files in rmhall's repo are not the latest jPlayer 2.1.0 version.
