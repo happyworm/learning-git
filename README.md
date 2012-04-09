@@ -27,3 +27,12 @@ Useful links:
 6. Command 'git push origin development'. CREATED REMOTE development BRANCH, BUT FILES WHERE OLD.
 7. Command 'git commit -a' while still in local development branch. Then 'git push origin development'. WORKED! REMOTE DEVELOPMENT BRANCH NOW CONTAINED THE NEW FILES. Switching between local branches works. And git staus seems happy on both branches. Reviewing order and commands again above.
 8. Changed file in development branch. Did a 'git add .' in the development branch. Commited changes. Required 'git commit -a' for changes to be read in. Reviewed master banch. Branches fine. Pushing to remote development branch.
+
+OK. Have the local and remote understood.
+
+## Now to merge in a remote repo with this one.
+
+Want this repo here: [rmhall/jPlayer](https://github.com/rmhall/jPlayer)
+Git Read-Only url: git://github.com/rmhall/jPlayer.git
+
+1. Command: 'git fetch git://github.com/rmhall/jPlayer.git master::rtmp'
